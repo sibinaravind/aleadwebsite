@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alead — AI Lead Management Software | Automate. Manage. Grow.</title>
+  <meta name="description"
+    content="Alead's AI agent catches every lead the moment it arrives and walks it through your pipeline — greeted, qualified, nurtured, booked and won — automatically.">
+
+  <!-- ============ SEO ============ -->
+  <link rel="canonical" href="https://alead-ae.web.app/">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0B0C10">
+  <meta name="author" content="Alead">
+
+  <!-- Open Graph / Facebook, LinkedIn, WhatsApp link previews -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Alead">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:url" content="https://alead-ae.web.app/">
+  <meta property="og:title" content="Alead — AI Lead Management Software">
+  <meta property="og:description"
+    content="Alead's AI agent catches every lead the moment it arrives and walks it through your pipeline — greeted, qualified, nurtured, booked and won — automatically.">
+  <meta property="og:image" content="https://alead-ae.web.app/images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="468">
+  <meta property="og:image:alt" content="Alead — AI lead management">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Alead — AI Lead Management Software">
+  <meta name="twitter:description"
+    content="Alead's AI agent catches every lead the moment it arrives and walks it through your pipeline — greeted, qualified, nurtured, booked and won — automatically.">
+  <meta name="twitter:image" content="https://alead-ae.web.app/images/og-image.jpg">
+
+  <!-- structured data: lets Google show Alead as a known organization with contact details -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Alead",
+    "url": "https://alead-ae.web.app/",
+    "logo": "https://alead-ae.web.app/images/app_logo.webp",
+    "description": "Alead's AI agent catches every lead the moment it arrives and walks it through your whole pipeline — greeted, qualified, nurtured, booked and won — automatically.",
+    "contactPoint": [{
+      "@type": "ContactPoint",
+      "contactType": "customer support",
+      "email": "alead.aesw@gmail.com",
+      "telephone": "+91-62828-07741",
+      "areaServed": "IN",
+      "availableLanguage": ["English"]
+    }]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap"
+    rel="stylesheet">
+  <link rel="icon" type="image/png" href="images/app_icon.png">
+  <link rel="apple-touch-icon" href="images/app_icon.png">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav">
+    <div class="wrap nav__row">
+      <a href="#top" class="brand">
+        <img src="images/app_logo.webp" alt="Alead" class="brand__logo" width="600" height="171">
+      </a>
+      <nav class="nav__links" id="navLinks">
+        <a href="#journey">The journey</a>
+        <a href="#features">Features</a>
+        <a href="#cases">Who it's for</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#referral">Refer</a>
+        <a href="#contact" class="btn btn--primary nav__cta-link js-contact-trigger">Get started</a>
+      </nav>
+      <div class="nav__actions">
+        <button class="nav__toggle" id="navToggle" aria-label="Menu" aria-expanded="false" aria-controls="navLinks">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ DECLUTTER HERO ============ -->
+  <section class="declutter" id="top">
+    <div class="declutter__pin">
+      <div class="bg-fx" aria-hidden="true">
+        <div class="bg-fx__grid"></div>
+        <div class="bg-fx__orb c"></div>
+      </div>
+      <div class="wrap declutter__head">
+        <div class="declutter__head-txt" data-head="1" style="opacity:1;">
+          <h1>Is your business <span class="accent">struggling to keep up?</span></h1>
+          <p>Leads coming in through calls, WhatsApp, forms and DMs — replies get delayed, follow-ups get forgotten, and
+            no one's sure who's handling what. Keep scrolling.</p>
+        </div>
+        <div class="declutter__head-txt" data-head="2">
+          <div class="hero-badge"><span class="ai-badge">AI-POWERED</span><span>Next-Gen Sales Solution</span></div>
+          <h2>All of it, <span class="accent">organized automatically.</span></h2>
+          <p>Every call, chat and follow-up lands in one system — sorted, scored and ready for your team.</p>
+        </div>
+        <div class="declutter__head-txt" data-head="3">
+          <div class="hero-badge"><span class="ai-badge">AI-POWERED</span><span>Next-Gen Sales Solution</span></div>
+          <h2>One dashboard. <span class="accent">Everything in order.</span></h2>
+          <div class="declutter__stats-inline">
+            <div class="declutter__stat"><span class="stat__num">300%</span><span class="stat__label">Average ROI
+                Increase</span></div>
+            <div class="declutter__stat"><span class="stat__num">70%</span><span class="stat__label">Performance
+                Increase</span></div>
+            <div class="declutter__stat"><span class="stat__num">0%</span><span class="stat__label">Lead Leakage</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="declutter__stage" id="declutterStage">
+        <div class="declutter__glow" id="declutterGlow"></div>
+        <div class="declutter__frame">
+          <img class="declutter__img declutter__img--stressed" src="images/stressed-v2.webp"
+            alt="Overwhelmed business owner holding calls, messages and papers" width="900" height="600">
+          <img class="declutter__img declutter__img--happy" src="images/happy-v2.webp"
+            alt="Relieved Alead agent at the laptop, everything handled" width="900" height="749">
+        </div>
+
+        <!-- phase 1: chaos chips — clustered tightly around the owl, monitor sits well outside this group -->
+        <div class="chip chip--badge" data-mt="-6" data-ml="-1" style="top:-4%; left:8%;"><span
+            class="chip__ico">📞</span>Calls<span class="chip__count">12</span></div>
+        <div class="chip chip--badge" data-mt="-6" data-ml="30" style="top:-9%; left:26%;"><span
+            class="chip__ico">💬</span>Msgs<span class="chip__count">23</span></div>
+        <div class="chip chip--badge" data-mt="-6" data-ml="64" style="top:-8%; left:44%;"><span
+            class="chip__ico chip__ico--wa">💬</span>WhatsApp<span class="chip__count">37</span></div>
+        <div class="chip chip--cal" data-mt="4" data-ml="6" style="top:-2%; left:62%;">
+          <div class="cal__top">MEETING</div>
+          <div class="cal__body">Partner call · 3PM</div>
+        </div>
+        <div class="chip chip--badge" data-mt="4" data-ml="60" style="top:14%; left:62%;"><span
+            class="chip__ico">✉️</span>Email<span class="chip__count">1</span></div>
+
+        <div class="chip chip--card" data-mt="41" data-ml="0" style="top:20%; left:22%;"><span>👤</span><b>New
+            lead</b><span class="chip__dot"></span></div>
+        <div class="chip chip--badge" data-mt="41" data-ml="58" style="top:26%; left:70%;"><span
+            class="chip__ico">💬</span>Notify<span class="chip__count">7</span></div>
+        <div class="chip chip--note" data-mt="54" data-ml="0" style="top:40%; left:20%;">Don't forget!</div>
+        <div class="chip chip--pill" data-mt="54" data-ml="58" style="top:46%; left:68%;">📞 Call client</div>
+
+        <div class="chip chip--sheet" data-mt="69" data-ml="0" style="top:60%; left:22%;">
+          <div class="sheet__top">📋 To-do list</div>
+          <div class="sheet__line"></div>
+          <div class="sheet__line"></div>
+          <div class="sheet__line done"></div>
+        </div>
+        <div class="chip chip--card" data-mt="69" data-ml="58" style="top:66%; left:66%;">
+          <span>🤝</span><b>Partner</b><span class="chip__dot"></span></div>
+        <div class="chip chip--note chip--pink" data-mt="88" data-ml="58" style="top:88%; left:58%;">Follow up!</div>
+        <div class="chip chip--badge" data-mt="88" data-ml="0" style="top:88%; left:26%;"><span
+            class="chip__ico chip__ico--bell">🔔</span>Alerts<span class="chip__count">5</span></div>
+
+        <div class="chip chip--badge" data-mt="101" data-ml="0" style="top:10%; left:8%;"><span
+            class="chip__ico chip__ico--blue">📅</span>Booking<span class="chip__count">4</span></div>
+        <div class="chip chip--badge" data-mt="101" data-ml="58" style="top:28%; left:8%;"><span
+            class="chip__ico chip__ico--wa">💳</span>Payments<span class="chip__count">9</span></div>
+        <div class="chip chip--badge" data-mt="114" data-ml="28" style="top:62%; left:8%;"><span
+            class="chip__ico chip__ico--purple">🧾</span>Billing<span class="chip__count">2</span></div>
+
+        <!-- alead system monitor -->
+        <div class="monitor" id="monitor">
+          <div class="monitor__screen">
+            <div class="monitor__glow"></div>
+            <div class="monitor__shine"></div>
+            <div class="monitor__cam"></div>
+            <div class="monitor__view monitor__view--collect" id="viewCollect">
+              <div class="monitor__top"><span class="monitor__dot"></span><span class="monitor__label">ALEAD</span>
+              </div>
+              <div class="monitor__count" id="systemCount">0</div>
+              <div class="monitor__status" id="systemStatus">Waiting…</div>
+            </div>
+            <div class="monitor__view monitor__view--dash" id="viewDash">
+              <div class="dtile"><b id="statLeads">0</b><span>New Leads</span><em>↑18%</em></div>
+              <div class="dtile"><b>42</b><span>Follow Ups</span><em>↑12%</em></div>
+              <div class="dtile"><b>89</b><span>Customers</span><em>↑15%</em></div>
+              <div class="dtile"><b id="statConv">0</b><span>Conversions</span><em>↑20%</em></div>
+            </div>
+          </div>
+          <div class="monitor__stand"></div>
+          <div class="monitor__base"></div>
+        </div>
+
+        <!-- phase 3: analytics reveal (recreated from the reference dashboard image, kept within bounds) -->
+        <div class="panel panel--dash" data-at="0.72" data-mt="36" data-ml="0" style="top:2%; left:1%;">
+          <div class="panel__title">Dashboard</div>
+          <div class="dash-grid">
+            <div class="dash-tile"><b>128</b><span>New Leads</span><em>↑18%</em></div>
+            <div class="dash-tile"><b>42</b><span>Follow Ups</span><em>↑12%</em></div>
+            <div class="dash-tile"><b>89</b><span>Customers</span><em>↑15%</em></div>
+            <div class="dash-tile"><b>256</b><span>Conversions</span><em>↑20%</em></div>
+          </div>
+          <div class="dash-extra"><span>34 Bookings</span><span>₹4.2L Payments</span><span>18 Billing</span></div>
+        </div>
+
+        <div class="panel panel--pipeline" data-at="0.78" data-mt="36" data-ml="54" style="top:0%; left:66%;">
+          <div class="panel__title">Lead Pipeline</div>
+          <div class="pipe-row">
+            <div class="pipe-bar" style="background:#2F6BFF; width:80%;">New</div><span class="pipe-val">128</span>
+          </div>
+          <div class="pipe-row">
+            <div class="pipe-bar" style="background:#2694A8; width:66%;">Contacted</div><span class="pipe-val">96</span>
+          </div>
+          <div class="pipe-row">
+            <div class="pipe-bar" style="background:#3FA76B; width:52%;">Qualified</div><span class="pipe-val">64</span>
+          </div>
+          <div class="pipe-row">
+            <div class="pipe-bar" style="background:#FF6A1A; width:34%;">Proposal</div><span class="pipe-val">34</span>
+          </div>
+          <div class="pipe-row">
+            <div class="pipe-bar" style="background:#8B5CF6; width:22%;">Won</div><span class="pipe-val">24</span>
+          </div>
+        </div>
+
+        <div class="panel panel--chats" data-at="0.86" data-mt="53" data-ml="0" style="top:64%; left:1%;">
+          <div class="panel__title">Active Chats</div>
+          <div class="chat-row"><span class="av"></span>
+            <div><b>Rohit Sharma</b><span>Just now</span></div><span class="dot"></span>
+          </div>
+          <div class="chat-row"><span class="av"></span>
+            <div><b>Anita Verma</b><span>2 mins</span></div><span class="dot"></span>
+          </div>
+          <div class="chat-row"><span class="av"></span>
+            <div><b>Vikram Singh</b><span>5 mins</span></div><span class="dot"></span>
+          </div>
+        </div>
+
+        <div class="panel panel--checklist" data-at="0.92" data-mt="53" data-ml="54" style="top:66%; left:67%;">
+          <div class="panel__title">All automated</div>
+          <div class="check-row"><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="3">
+                <path d="M20 6 9 17l-5-5" />
+              </svg></span>Auto Follow-ups</div>
+          <div class="check-row"><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="3">
+                <path d="M20 6 9 17l-5-5" />
+              </svg></span>Lead Management</div>
+          <div class="check-row"><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="3">
+                <path d="M20 6 9 17l-5-5" />
+              </svg></span>Team Collaboration</div>
+          <div class="check-row"><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="3">
+                <path d="M20 6 9 17l-5-5" />
+              </svg></span>Reports &amp; Analytics</div>
+        </div>
+
+        <div class="chip chip--badge mobile-hide" data-at="0.75" data-mt="30" data-ml="2"
+          style="top:56%; left:3%; opacity:0; transition:opacity .5s ease;"><span
+            class="chip__ico chip__ico--wa">💬</span>WhatsApp</div>
+        <div class="chip chip--badge mobile-hide" data-at="0.8" data-mt="36" data-ml="2"
+          style="top:8%; left:44%; opacity:0; transition:opacity .5s ease;"><span
+            class="chip__ico chip__ico--purple">✉️</span>Mail<span class="chip__count">3</span></div>
+        <div class="chip chip--badge mobile-hide" data-at="0.88" data-mt="34" data-ml="70"
+          style="top:12%; left:88%; opacity:0; transition:opacity .5s ease;"><span
+            class="chip__ico chip__ico--bell">🔔</span>Alerts<span class="chip__count">3</span></div>
+        <div class="chip chip--badge mobile-hide" data-at="0.94" data-mt="48" data-ml="38"
+          style="top:88%; left:44%; opacity:0; transition:opacity .5s ease;"><span
+            class="chip__ico chip__ico--blue">📅</span>Calendar</div>
+      </div>
+
+    </div>
+  </section>
+  <div> </div>
+  <section class="section journey-v2" id="journey">
+    <div class="timeline-pinwrap" id="timelinePinwrap">
+      <div class="timeline-pin">
+        <div class="wrap">
+          <div class="sec-head center reveal">
+            <div class="hero-badge"><span class="ai-badge">AI Journey</span><span>From hello to deal</span></div>
+            <h2>A lead journey that <span class="accent">moves itself.</span></h2>
+            <p>Every stage is connected. The visual journey makes it obvious what happens next — while automation
+              quietly handles the repetitive work in the background.</p>
+          </div>
+          <div class="timeline3d" id="timeline3d">
+            <div class="timeline-track">
+              <div class="timeline-progress" id="timelineProgress"></div>
+            </div>
+            <article class="tcard"><span class="step-no">01 / CAPTURE</span>
+              <div class="ticon">◎</div>
+              <h3>Capture</h3>
+              <p>Every enquiry lands in one intelligent inbox.</p>
+            </article>
+            <article class="tcard"><span class="step-no">02 / GREET</span>
+              <div class="ticon">✦</div>
+              <h3>Greet</h3>
+              <p>AI responds instantly with the right context.</p>
+            </article>
+            <article class="tcard"><span class="step-no">03 / QUALIFY</span>
+              <div class="ticon">◈</div>
+              <h3>Qualify</h3>
+              <p>Intent, budget and fit become structured data.</p>
+            </article>
+            <article class="tcard"><span class="step-no">04 / NURTURE</span>
+              <div class="ticon">↗</div>
+              <h3>Nurture</h3>
+              <p>Follow-ups happen automatically at the right time.</p>
+            </article>
+            <article class="tcard"><span class="step-no">05 / BOOK</span>
+              <div class="ticon">▣</div>
+              <h3>Book</h3>
+              <p>High-intent leads move directly to meetings.</p>
+            </article>
+            <article class="tcard"><span class="step-no">06 / WIN</span>
+              <div class="ticon">★</div>
+              <h3>Win & learn</h3>
+              <p>Outcomes become insights for the next lead.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ============ FEATURES ============ -->
+  <section class="section" id="features">
+    <div class="wrap">
+      <div class="sec-head center reveal">
+        <div class="hero-badge"><span class="ai-badge">All Rounder</span><span>You only need one</span></div>
+        <h2>Everything your pipeline <span class="accent">needs.</span></h2>
+        <p>No pile of separate tools. One smart workspace to capture leads, talk to them, manage the pipeline, track
+          performance and grow — everything your team needs, without switching between five different apps.</p>
+      </div>
+      <div class="integration-stage" id="featuresStage">
+        <div class="integration-floor"></div>
+        <div class="integration-glow"></div>
+        <i class="integration-packet" style="left:28%;top:22%;--dx:24px;--dy:18px;animation-delay:.2s"></i>
+        <i class="integration-packet" style="left:70%;top:26%;--dx:-22px;--dy:20px;animation-delay:1.3s"></i>
+        <i class="integration-packet" style="left:24%;top:76%;--dx:22px;--dy:-16px;animation-delay:.7s"></i>
+        <i class="integration-packet" style="left:74%;top:72%;--dx:-20px;--dy:-18px;animation-delay:1.9s"></i>
+        <span class="hub-dash" style="left:22%;top:38%;transform:rotate(18deg);"></span>
+        <span class="hub-dash" style="left:58%;top:58%;transform:rotate(-22deg);animation-delay:2.5s;"></span>
+        <div class="integration-card i1">
+          <div class="brand-icon" style="color:var(--ember);">✦</div>
+          <div><b>AI Lead Management</b><small>Auto-scores every lead by buying intent</small></div>
+        </div>
+        <div class="integration-card i2">
+          <div class="brand-icon" style="color:var(--ember);">☎</div>
+          <div><b>Smart Call Tracking</b><small>Transcribes every call and flags what matters</small></div>
+        </div>
+        <div class="integration-card i3">
+          <div class="brand-icon" style="color:var(--ember);">◉</div>
+          <div><b>Smart Marketing</b><small>Run WhatsApp, email & Meta campaigns in one place</small></div>
+        </div>
+        <div class="integration-card i4">
+          <div class="brand-icon" style="color:var(--ember);">⌁</div>
+          <div><b>Automated Workflows</b><small>Auto-assigns leads and triggers follow-ups</small></div>
+        </div>
+        <div class="integration-card i5">
+          <div class="brand-icon" style="color:var(--ember);">◇</div>
+          <div><b>Team Performance</b><small>Tracks rep activity and coaching opportunities</small></div>
+        </div>
+        <div class="integration-card i6">
+          <div class="brand-icon" style="color:var(--ember);">▣</div>
+          <div><b>Product Interest</b><small>Maps what each lead wants for sharper outreach</small></div>
+        </div>
+        <div class="integration-card i7">
+          <div class="brand-icon" style="color:var(--violet);">◌</div>
+          <div><b>Live Analytics</b><small>Live dashboards, filtered any way you need</small></div>
+        </div>
+        <div class="integration-card i8">
+          <div class="brand-icon" style="color:var(--ember);">▤</div>
+          <div><b>Billing & Accounting</b><small>Automated invoicing with cash-flow forecasts</small></div>
+        </div>
+        <div class="integration-card i9">
+          <div class="brand-icon" style="color:var(--sage);">◈</div>
+          <div><b>Enterprise Security</b><small>Bank-grade encryption with 24/7 threat monitoring</small></div>
+        </div>
+        <div class="integration-center">
+          <div>
+            <img src="images/app_logo.webp" alt="Alead" class="a-logo-img" width="600" height="171" loading="lazy">
+            <p>One connected platform</p>
+          </div>
+          <div class="pipeline"><i></i></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ INTEGRATIONS ============ -->
+  <section class="section integration-section" id="integrations">
+    <div class="wrap">
+      <div class="sec-head center reveal">
+        <div class="hero-badge"><span class="ai-badge">Connected Hub</span><span>Seamless integrations</span></div>
+        <h2>Connect all your <span class="accent">marketing tools.</span></h2>
+        <p>Integrate with the tools you already use in minutes — no coding required. Everything flows into one
+          intelligent Alead pipeline.</p>
+      </div>
+      <div class="flow reveal">
+        <div class="flow__node">
+          <div class="flow__icon" style="color:#1877F2;"><svg viewBox="0 0 24 24" fill="currentColor" width="24"
+              height="24">
+              <path
+                d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.4h-1.2c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7A10 10 0 0 0 22 12Z" />
+            </svg></div>
+          <span class="flow__label">Facebook</span>
+          <span class="flow__sub">Lead Ads</span>
+        </div>
+        <div class="flow__arrow"></div>
+        <div class="flow__node">
+          <div class="flow__icon" style="color:#E1306C;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2" width="22" height="22">
+              <rect x="2" y="2" width="20" height="20" rx="5" />
+              <circle cx="12" cy="12" r="4" />
+              <circle cx="17.5" cy="6.5" r="1" />
+            </svg></div>
+          <span class="flow__label">Instagram</span>
+          <span class="flow__sub">DMs</span>
+        </div>
+        <div class="flow__arrow"></div>
+        <div class="flow__node">
+          <div class="flow__icon" style="color:#25D366;"><svg viewBox="0 0 24 24" fill="currentColor" width="24"
+              height="24">
+              <path
+                d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2Zm5.7 14.2c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.1-1.9-.1-.4-.1-1-.3-1.7-.7-3-1.3-5-4.3-5.1-4.5-.2-.2-1.2-1.6-1.2-3.1s.8-2.2 1.1-2.5c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .6l-.5.7c-.1.2-.2.3-.1.5.2.4.9 1.4 1.9 2.3 1.3 1.1 2.3 1.5 2.7 1.7.3.1.5.1.6-.1l.7-.9c.2-.3.4-.2.6-.1l1.9 1c.2.1.4.2.4.4.1.2.1.9-.1 1.6Z" />
+            </svg></div>
+          <span class="flow__label">WhatsApp</span>
+          <span class="flow__sub">Business API</span>
+        </div>
+        <div class="flow__arrow"></div>
+        <div class="flow__node">
+          <div class="flow__icon" style="color:#2F6BFF;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2" width="22" height="22">
+              <rect x="2" y="4" width="20" height="16" rx="2" />
+              <path d="m2 7 10 6 10-6" />
+            </svg></div>
+          <span class="flow__label">Email</span>
+          <span class="flow__sub">Any platform</span>
+        </div>
+        <div class="flow__arrow"></div>
+        <div class="flow__node flow__node--end">
+          <div class="flow__icon">A</div>
+          <span class="flow__label">Alead</span>
+          <span class="flow__sub">One pipeline</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ INDUSTRIES ============ -->
+  <section class="section" id="cases">
+    <div class="wrap">
+      <div class="sec-head center reveal">
+        <div class="hero-badge"><span class="ai-badge">Universal Fit</span><span>For All kind business </span></div>
+        <h2>One engine. Every industry runs on it.</h2>
+        <p>Eight industries, one smart assistant — each one set up with the right questions and follow-up timing.</p>
+      </div>
+      <div class="industries">
+        <div class="industry reveal">
+          <div>
+            <div class="ind-icon ind-icon--house"><svg viewBox="0 0 54 54">
+                <circle class="ping-ring" cx="27" cy="41" r="2.2" />
+                <circle class="ping-dot" cx="27" cy="41" r="2.2" />
+              </svg><span>⌂</span></div><b>Real Estate</b><small>Every enquiry, viewing and follow-up tracked
+              automatically.</small>
+          </div>
+        </div>
+        <div class="industry reveal">
+          <div>
+            <div class="ind-icon ind-icon--edu"><svg viewBox="0 0 54 54">
+                <circle class="orbit-ring" cx="27" cy="27" r="20" />
+              </svg><span>◇</span></div><b>Education</b><small>Admissions, counselling calls and enrolments in one
+              pipeline.</small>
+          </div>
+        </div>
+        <div class="industry reveal">
+          <div>
+            <div class="ind-icon ind-icon--migration"><svg viewBox="0 0 54 54">
+                <ellipse class="orbit-a" cx="27" cy="27" rx="20" ry="8" />
+                <ellipse class="orbit-b" cx="27" cy="27" rx="8" ry="20" />
+              </svg><span>◎</span></div><b>Migration</b><small>Visa stages and document checklists, always up to
+              date.</small>
+          </div>
+        </div>
+        <div class="industry reveal">
+          <div>
+            <div class="ind-icon ind-icon--vehicle"><span>▣</span></div><b>Vehicle</b><small>Test drives, financing
+              queries and trade-ins, organized.</small>
+          </div>
+        </div>
+        <div class="industry reveal">
+          <div>
+            <div class="ind-icon ind-icon--travel"><svg viewBox="0 0 54 54">
+                <path class="flight-path" d="M6 40 Q27 8 48 16" />
+              </svg><span>✈</span></div><b>Travel</b><small>Itinerary requests answered before they cool off.</small>
+          </div>
+        </div>
+        <div class="industry reveal">
+          <div>
+            <div class="ind-icon ind-icon--health"><svg viewBox="0 0 54 54">
+                <path class="ekg" d="M3 27h9l3-12 5 22 4-17 3 7h24" />
+              </svg><span>✚</span></div><b>Healthcare</b><small>Appointment requests routed to the right
+              department.</small>
+          </div>
+        </div>
+        <div class="industry reveal">
+          <div>
+            <div class="ind-icon ind-icon--services"><svg viewBox="0 0 54 54">
+                <circle class="gear-ring" cx="27" cy="27" r="19" />
+              </svg><span>▦</span></div><b>Services</b><small>Quotes, bookings and repeat customers in one clean
+              queue.</small>
+          </div>
+        </div>
+        <div class="industry reveal">
+          <div>
+            <div class="ind-icon ind-icon--more"><svg viewBox="0 0 54 54">
+                <circle class="ping-ring" cx="27" cy="27" r="3" />
+                <circle class="ping-dot" cx="27" cy="27" r="3" />
+              </svg><span>+</span></div><b>More</b><small>Any inbound channel, mapped to the way your team
+              works.</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PRICING ============ -->
+  <section class="section" id="pricing">
+    <div class="wrap">
+      <div class="sec-head center reveal">
+        <div class="hero-badge"><span class="ai-badge">Deal</span><span>Priceless</span></div>
+        <!-- <h1> <span class="accent">You focus on growth.</span></h1> -->
+         <h2>Let Alead handle your leads.  <span class="accent">You focus on growth.</span></h2>
+        <p>Custom Plan — Get a customized plan built around your business needs, goals, and requirements.</p>
+      </div>
+      <div class="price reveal">
+        <div>
+          <div class="hero-badge"><span class="ai-badge">ULTIMATE POWER</span></div>
+          <h2 style="margin-top:16px;">Your success is priceless.<br><span class="accent">Our pricing is not.</span>
+          </h2>
+          <p>Try and see what an automated lead system can do for your team.</p>
+          <div class="checks"><span>Unlimited leads</span><span>Unlimited team members</span><span>Industry
+              customization</span><span>White-label options</span><span>Dedicated account manager</span><span>24/7 phone
+              support</span></div>
+        </div>
+        <div class="price-side">
+          <span class="accent">Ready to Transform Your Sales Process?</span>
+          <div class="amount"><h3 style="margin-top:16px; font-size:50px;">let's make secret deal</h3></div>
+          <a class="btn btn--primary js-contact-trigger" style="width:100%; margin-top:20px; justify-content:center;" href="#contact">Book
+            a personalized demo →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ REFER & EARN ============ -->
+  <section class="section" id="referral" style="padding-top:0;">
+    <div class="wrap">
+        <div class="sec-head center reveal">
+        <div class="hero-badge"><span class="ai-badge">Refer</span><span>Win to Win</span></div>
+        <!-- <h1> <span class="accent">You focus on growth.</span></h1> -->
+           <h2>Refer a friend. <span class="accent">Let's grow together.</span></h2>
+        <p>Referral Reward — Get up to 15% back as a thank-you credit for every business you refer that comes on board with Alead.</p>
+      </div>
+      <div class="cta referral-cta reveal">
+
+        <div class="declutter__stats-inline referral-cta__stats">
+          <div class="declutter__stat"><span class="stat__num">15%</span><span class="stat__label">Referral Reward</span></div>
+          <div class="declutter__stat"><span class="stat__num">∞</span><span class="stat__label">Referrals Allowed</span></div>
+          <div class="declutter__stat"><span class="stat__num">30s</span><span class="stat__label">To gain</span></div>
+        </div>
+
+        <div class="checks referral-cta__checks">
+          <span>Up to 15% referral reward</span>
+          <span>Credited once they onboard</span>
+          <span>Refer as many teams as you like</span>
+          <span>Takes 30 seconds to send</span>
+        </div>
+        <a class="btn btn--primary js-referral-trigger" href="#referral">Refer &amp; earn up to 15% →</a>
+        <h3 class="referral-cta__joke" style="font-size: 25px;">🤫 Don't think too much, self-referral acceptable.</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ REFERRAL MODAL ============ -->
+  <div class="modal" id="referralModal" aria-hidden="true">
+    <div class="modal__content">
+      <button class="modal__close" id="closeReferralModal" aria-label="Close">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
+
+      <div class="modal__head">
+        <h2>Refer &amp; earn up to 15%</h2>
+        <p>Just your name and phone — we'll reach out and set you up to earn as soon as someone you refer comes on board.</p>
+      </div>
+
+      <form id="referralForm" class="contact-form" novalidate style="margin-top:22px;">
+        <label>
+          <span>Your name</span>
+          <input type="text" name="referrerName" maxlength="120" placeholder="Your name">
+        </label>
+        <label>
+          <span>Your phone</span>
+          <input type="tel" name="referrerPhone" maxlength="30" placeholder="+91 98765 43210">
+        </label>
+        <label>
+          <span>Tenant ID <em>(optional — if you're already an Alead customer)</em></span>
+          <input type="text" name="tenantId" maxlength="60" placeholder="Only if you already use Alead">
+        </label>
+        <p class="referral-modal__joke">🤫 Don't think too much, self-referral acceptable.</p>
+        <button type="submit" class="btn btn--primary contact-form__submit">
+          <span class="contact-form__submit-label">Send referral</span>
+        </button>
+        <p class="contact-form__status" id="referralFormStatus" role="status"></p>
+      </form>
+    </div>
+  </div>
+
+
+  <!-- ============ FOOTER ============ -->
+  <footer id="contact" class="grain">
+    <div class="wrap">
+      <div class="foot__top">
+        <div class="foot__brand">
+          <div class="brand">
+            <img src="images/app_logo_with_sub.webp" alt="Alead" class="brand__logo brand__logo--footer" width="500" height="195" loading="lazy">
+          </div>
+          <p>AI lead management for small and growing teams. Automate the busywork, manage the pipeline, grow the
+            business.</p>
+        </div>
+        <div class="foot__col">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="#journey">The journey</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#cases">Who it's for</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#referral">Refer &amp; earn</a></li>
+          </ul>
+        </div>
+        <div class="foot__col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#top">About</a></li>
+            <li><a href="mailto:alead.aesw@gmail.com">alead.aesw@gmail.com</a></li>
+            <li><a href="tel:+916282807741">+91 62828 07741</a></li>
+            <li><a href="https://wa.me/916282807741" target="_blank" rel="noopener noreferrer">WhatsApp us</a></li>
+          </ul>
+        </div>
+        <div class="foot__col">
+          <h4>Get started</h4>
+          <ul>
+            <li><a href="#contact" class="js-contact-trigger">Get started free</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="foot__bottom">
+        <span>© 2026 Alead. All rights reserved.</span>
+        <span>Automate. Manage. Grow.</span>
+        <a class="foot__powered" href="https://alead-ae.web.app/" target="_blank" rel="noopener noreferrer">Powered by Alead ↗</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ CONTACT MODAL ============ -->
+  <div class="modal" id="contactModal" aria-hidden="true">
+    <div class="modal__content">
+      <button class="modal__close" id="closeContactModal" aria-label="Close">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
+
+      <div class="modal__head">
+        <h2>Get in touch</h2>
+        <p>Choose the fastest way to reach us, or send us a message directly.</p>
+      </div>
+
+      <div class="contact-channels">
+        <a href="mailto:alead.aesw@gmail.com" class="contact-channel">
+          <div class="contact-channel__icon contact-channel__icon--email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg>
+          </div>
+          <div class="contact-channel__text">
+            <span class="contact-channel__label">Email</span>
+            <span class="contact-channel__value">alead.aesw@gmail.com</span>
+          </div>
+        </a>
+        <a href="tel:+916282807741" class="contact-channel">
+          <div class="contact-channel__icon contact-channel__icon--phone">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+          </div>
+          <div class="contact-channel__text">
+            <span class="contact-channel__label">Phone</span>
+            <span class="contact-channel__value">+91 62828 07741</span>
+          </div>
+        </a>
+        <a href="https://wa.me/916282807741" target="_blank" rel="noopener noreferrer" class="contact-channel">
+          <div class="contact-channel__icon contact-channel__icon--whatsapp">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2Zm5.7 14.2c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.1-1.9-.1-.4-.1-1-.3-1.7-.7-3-1.3-5-4.3-5.1-4.5-.2-.2-1.2-1.6-1.2-3.1s.8-2.2 1.1-2.5c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .6l-.5.7c-.1.2-.2.3-.1.5.2.4.9 1.4 1.9 2.3 1.3 1.1 2.3 1.5 2.7 1.7.3.1.5.1.6-.1l.7-.9c.2-.3.4-.2.6-.1l1.9 1c.2.1.4.2.4.4.1.2.1.9-.1 1.6Z"/></svg>
+          </div>
+          <div class="contact-channel__text">
+            <span class="contact-channel__label">WhatsApp</span>
+            <span class="contact-channel__value">+91 62828 07741</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="modal__divider"><span>or send a message</span></div>
+
+      <form id="contactForm" class="contact-form" novalidate>
+        <div class="contact-form__row">
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" maxlength="120" placeholder="Your name">
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" maxlength="200" placeholder="you@company.com">
+          </label>
+        </div>
+        <label>
+          <span>Phone</span>
+          <input type="tel" name="phone" maxlength="30" placeholder="+91 98765 43210">
+        </label>
+        <label>
+          <span>Message</span>
+          <textarea name="message" maxlength="5000" rows="4" placeholder="Tell us a bit about what you need"></textarea>
+        </label>
+        <button type="submit" class="btn btn--primary contact-form__submit">
+          <span class="contact-form__submit-label">Send message</span>
+        </button>
+        <p class="contact-form__status" id="contactFormStatus" role="status"></p>
+      </form>
+    </div>
+  </div>
+
+  <!-- ============ CHAT WIDGET ============ -->
+  <div class="chatw" id="chatWidget">
+    <div class="chatw__greet" id="chatwGreet" hidden>
+      <button class="chatw__greet-close" id="chatwGreetClose" aria-label="Dismiss">×</button>
+      <p>👋 Hey! I'm Nova — ask me about pricing, features or how Alead works.</p>
+    </div>
+
+    <button class="chatw__launcher" id="chatwLauncher" aria-label="Open chat with Nova" aria-expanded="false">
+      <img src="images/chat_bot.webp" alt="" width="260" height="281" loading="lazy">
+      <span class="chatw__launcher-badge" id="chatwBadge">1</span>
+    </button>
+
+    <div class="chatw__panel" id="chatwPanel" role="dialog" aria-modal="false" aria-label="Chat with Nova" aria-hidden="true">
+      <div class="chatw__head">
+        <img class="chatw__head-avatar" src="images/chat_bot.webp" alt="" width="260" height="281" loading="lazy">
+        <div class="chatw__head-text">
+          <b>Nova from Alead</b>
+          <span><i class="chatw__dot"></i>Usually replies instantly</span>
+        </div>
+        <button class="chatw__close" id="chatwClose" aria-label="Close chat">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"/></svg>
+        </button>
+      </div>
+
+      <div class="chatw__body" id="chatwBody"></div>
+
+      <form class="chatw__inputrow" id="chatwForm">
+        <input type="text" id="chatwInput" maxlength="300" placeholder="Ask a question…" autocomplete="off">
+        <button type="submit" aria-label="Send">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>

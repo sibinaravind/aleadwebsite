@@ -1,0 +1,16 @@
+{
+  "name": "Alead — Automate. Manage. Grow.",
+  "short_name": "Alead",
+  "description": "Alead's AI agent catches every lead the moment it arrives and walks it through your pipeline — greeted, qualified, nurtured, booked and won — automatically.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0B0C10",
+  "theme_color": "#0B0C10",
+  "icons": [
+    {
+      "src": "images/app_icon.png",
+      "sizes": "180x130",
+      "type": "image/png"
+    }
+  ]
+}
